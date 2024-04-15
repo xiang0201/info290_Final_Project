@@ -18,12 +18,12 @@ class TestFunctions(unittest.TestCase):
         self.assertEqual(divisible_by_k(10, 2), 5)
         self.assertEqual(divisible_by_k(3, 1), 3)
         self.assertEqual(divisible_by_k(6, 7), 0)
-#
-#     def test_sum_digits(self):
-#         self.assertEqual(sum_digits(10), 1)
-#         self.assertEqual(sum_digits(4224), 12)
-#         self.assertEqual(sum_digits(1234567890), 45)
-#         self.assertEqual(sum_digits(123), 6)
+
+    def test_sum_digits(self):
+        self.assertEqual(sum_digits(10), 1)
+        self.assertEqual(sum_digits(4224), 12)
+        self.assertEqual(sum_digits(1234567890), 45)
+        self.assertEqual(sum_digits(123), 6)
 #
 #     def test_double_eights(self):
 #         self.assertFalse(double_eights(8))
