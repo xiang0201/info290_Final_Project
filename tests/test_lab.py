@@ -13,11 +13,11 @@ class TestFunctions(unittest.TestCase):
         self.assertEqual(falling(4, 3), 24)
         self.assertEqual(falling(4, 1), 4)
         self.assertEqual(falling(4, 0), 1)
-#
-#     def test_divisible_by_k(self):
-#         self.assertEqual(divisible_by_k(10, 2), 5)
-#         self.assertEqual(divisible_by_k(3, 1), 3)
-#         self.assertEqual(divisible_by_k(6, 7), 0)
+
+    def test_divisible_by_k(self):
+        self.assertEqual(divisible_by_k(10, 2), 5)
+        self.assertEqual(divisible_by_k(3, 1), 3)
+        self.assertEqual(divisible_by_k(6, 7), 0)
 #
 #     def test_sum_digits(self):
 #         self.assertEqual(sum_digits(10), 1)
