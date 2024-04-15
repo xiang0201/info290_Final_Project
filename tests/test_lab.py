@@ -35,9 +35,9 @@ class TestFunctions(unittest.TestCase):
 
     def test_falling_zero_k(self):
         self.assertEqual(falling(10, 0), 1)
-#
-#     def test_divisible_by_k_zero_n(self):
-#         self.assertEqual(divisible_by_k(0, 2), 0)
+
+    def test_divisible_by_k_zero_n(self):
+        self.assertEqual(divisible_by_k(0, 2), 0)
 #
 #     def test_sum_digits_single_digit(self):
 #         self.assertEqual(sum_digits(5), 5)
