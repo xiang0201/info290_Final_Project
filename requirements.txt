@@ -1,1 +1,1 @@
-pytest==latest_version
+pytest
