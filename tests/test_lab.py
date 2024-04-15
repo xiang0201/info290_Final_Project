@@ -24,14 +24,14 @@ class TestFunctions(unittest.TestCase):
         self.assertEqual(sum_digits(4224), 12)
         self.assertEqual(sum_digits(1234567890), 45)
         self.assertEqual(sum_digits(123), 6)
-#
-#     def test_double_eights(self):
-#         self.assertFalse(double_eights(8))
-#         self.assertTrue(double_eights(88))
-#         self.assertTrue(double_eights(2882))
-#         self.assertTrue(double_eights(880088))
-#         self.assertFalse(double_eights(12345))
-#         self.assertFalse(double_eights(80808080))
+
+    def test_double_eights(self):
+        self.assertFalse(double_eights(8))
+        self.assertTrue(double_eights(88))
+        self.assertTrue(double_eights(2882))
+        self.assertTrue(double_eights(880088))
+        self.assertFalse(double_eights(12345))
+        self.assertFalse(double_eights(80808080))
 #
 #     def test_falling_zero_k(self):
 #         self.assertEqual(falling(10, 0), 1)
