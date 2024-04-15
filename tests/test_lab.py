@@ -6,14 +6,13 @@ sys.path.append('..')
 
 
 class TestFunctions(unittest.TestCase):
-    def test_falling_large_numbers(self):
-        self.assertEqual(falling(100, 5), 9034502400)
 
-#     def test_falling(self):
-#         self.assertEqual(falling(6, 3), 120)
-#         self.assertEqual(falling(4, 3), 24)
-#         self.assertEqual(falling(4, 1), 4)
-#         self.assertEqual(falling(4, 0), 1)
+
+    def test_falling(self):
+        self.assertEqual(falling(6, 3), 120)
+        self.assertEqual(falling(4, 3), 24)
+        self.assertEqual(falling(4, 1), 4)
+        self.assertEqual(falling(4, 0), 1)
 #
 #     def test_divisible_by_k(self):
 #         self.assertEqual(divisible_by_k(10, 2), 5)
@@ -48,6 +47,9 @@ class TestFunctions(unittest.TestCase):
 #
 #     def test_double_eights_one_eight(self):
 #         self.assertFalse(double_eights(12345678))
+
+#     def test_falling_large_numbers(self):
+#         self.assertEqual(falling(100, 5), 9034502400)
 
 if __name__ == '__main__':
     unittest.main()
