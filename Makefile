@@ -1,6 +1,5 @@
 install:
-    pip install -r requirements.txt
-
+	@pip install -r requirements.txt
 test:
 	python3 -m pytest tests
 
