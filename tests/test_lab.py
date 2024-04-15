@@ -41,9 +41,9 @@ class TestFunctions(unittest.TestCase):
 
     def test_sum_digits_single_digit(self):
         self.assertEqual(sum_digits(5), 5)
-#
-#     def test_double_eights_no_eights(self):
-#         self.assertFalse(double_eights(1234567))
+
+    def test_double_eights_no_eights(self):
+        self.assertFalse(double_eights(1234567))
 #
 #     def test_double_eights_one_eight(self):
 #         self.assertFalse(double_eights(12345678))
