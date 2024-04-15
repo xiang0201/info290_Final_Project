@@ -44,9 +44,9 @@ class TestFunctions(unittest.TestCase):
 
     def test_double_eights_no_eights(self):
         self.assertFalse(double_eights(1234567))
-#
-#     def test_double_eights_one_eight(self):
-#         self.assertFalse(double_eights(12345678))
+
+    def test_double_eights_one_eight(self):
+        self.assertFalse(double_eights(12345678))
 
 #     def test_falling_large_numbers(self):
 #         self.assertEqual(falling(100, 5), 9034502400)
