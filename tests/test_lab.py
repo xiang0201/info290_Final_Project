@@ -32,9 +32,9 @@ class TestFunctions(unittest.TestCase):
         self.assertTrue(double_eights(880088))
         self.assertFalse(double_eights(12345))
         self.assertFalse(double_eights(80808080))
-#
-#     def test_falling_zero_k(self):
-#         self.assertEqual(falling(10, 0), 1)
+
+    def test_falling_zero_k(self):
+        self.assertEqual(falling(10, 0), 1)
 #
 #     def test_divisible_by_k_zero_n(self):
 #         self.assertEqual(divisible_by_k(0, 2), 0)
